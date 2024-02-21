@@ -64,7 +64,7 @@ color: #404bbf;
   color: #2e2f42;
 }
 
-.container-header {
+.header-container {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   margin: 0 auto;
@@ -115,7 +115,7 @@ color: #404bbf;
 
 /* Hero */
 
-.container-hero {
+.hero-container {
   padding: 188px 0;
 }
 
@@ -192,10 +192,18 @@ background-color: #F4F4FD
   padding: 120px 0;
 }
 
-.container-about {
+.about-container {
 }
 
-.visually-hidden {visibility: hidden;}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 .about-name {
   font-weight: 500;
