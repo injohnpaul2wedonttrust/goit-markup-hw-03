@@ -56,6 +56,12 @@ color: #404bbf;
 
 /* Header */
 
+.container-header {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+}
+
 .header-list {
   font-weight: 500;
   font-size: 16px;
@@ -64,7 +70,7 @@ color: #404bbf;
   color: #2e2f42;
 }
 
-.header-container {
+.header {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   margin: 0 auto;
