@@ -186,12 +186,24 @@ background-color: #F4F4FD
   background-color: #ffffff;
 }
 
+/* Section 2 */
+
+.about {
+  padding: 120px 0;
+}
+
+.container-about {
+}
+
+.visually-hidden {visibility: hidden;}
+
 .about-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .about-descr {
@@ -223,12 +235,15 @@ background-color: #F4F4FD
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 24px;
 }
 
 .about-list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: calc((100% - 72px) / 4);
 }
 
 
