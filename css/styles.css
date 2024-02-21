@@ -288,7 +288,6 @@ background-color: #F4F4FD
   color: #434455;
 }
 
-
 .app-name {
   font-weight: 500;
   font-size: 20px;
@@ -302,6 +301,13 @@ background-color: #F4F4FD
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.names {width: calc((100% - 48px) / 2);
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
 }
 
 /* Footer */
