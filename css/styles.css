@@ -36,6 +36,10 @@ a {
   color: #4d5ae5;
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -58,10 +62,32 @@ color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-pages {
+  padding: 24px 0;
 }
 
 .header-adress {
   font-style: normal;
+}
+
+.head-adress {
+  display: flex;
+  gap: 40px;
 }
 
 .header-adress-link {
@@ -82,12 +108,34 @@ color: #404bbf;
   color: #2e2f42;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Hero */
+
+.container-hero {
+  padding: 188px 0;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  max-width: 496px;
+}
+
+.hero-btn {
+  display: block;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 
 .hero-button {
@@ -97,7 +145,6 @@ color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   background-color: #4D5AE5;
 }
 
