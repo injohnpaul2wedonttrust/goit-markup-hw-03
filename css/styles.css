@@ -254,27 +254,17 @@ padding: 120px 0;
   gap: 24px;
 }
 
-.names {
-  width: calc((100% - 48px) / 3);
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
-
 .members {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
 
 .text {padding: 32px 0}
-
 
 .job {
   font-weight: 400;
@@ -285,27 +275,20 @@ padding: 120px 0;
   text-align: center;
 }
 
-.app-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.app-descr {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
 /* Section 4 */
 
 .ourportfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.blocks {
+  width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .ourportfolio-title {
@@ -330,6 +313,22 @@ padding: 120px 0;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.app-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.app-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Footer */
