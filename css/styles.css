@@ -62,10 +62,10 @@ color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   width: 1158px;
   margin: 0 auto;
