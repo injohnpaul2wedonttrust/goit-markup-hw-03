@@ -1,9 +1,5 @@
 :root 
 
-.img {
-  display: block;
-}
-
 /* Main */
 
 /* Body */
@@ -12,6 +8,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+
+img {
+  display: block;
 }
 
 .list {
