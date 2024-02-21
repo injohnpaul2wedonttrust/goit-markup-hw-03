@@ -234,6 +234,13 @@ background-color: #F4F4FD
   color: #ffffff;
 }
 
+/* Section 4 */
+
+.ourportfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .ourportfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -241,7 +248,22 @@ background-color: #F4F4FD
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: #2e2f42;}
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 .about-list {
   font-weight: 500;
@@ -278,15 +300,6 @@ background-color: #F4F4FD
   color: #434455;
 }
 
-.portfolio-list-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #4d5ae5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  background-color: #f4f4fd;
-}
 
 .app-name {
   font-weight: 500;
