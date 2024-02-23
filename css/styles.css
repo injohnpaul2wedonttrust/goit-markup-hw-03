@@ -125,7 +125,7 @@ margin: 0 auto;}
   align-items: center;
 }
 
-/* Hero */
+/* Section 1 */
 
 .hero {
   padding: 188px 0;
@@ -176,11 +176,6 @@ background-color: #404BBF;
   background-color: #2e2f42;
 }
 
-.ourteam {
-background-color: #F4F4FD;
-padding: 120px 0;
-}
-
 /* Section 2 */
 
 .about {
@@ -200,16 +195,10 @@ padding: 120px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0);
 overflow: hidden;
@@ -222,7 +211,6 @@ overflow: hidden;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .about-descr {
@@ -243,7 +231,11 @@ overflow: hidden;
   display: flex;
   gap: 24px;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
+}
+
+.ourteam {
+  background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
 .ourteam-title {
@@ -265,6 +257,7 @@ overflow: hidden;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .members {
@@ -276,7 +269,6 @@ overflow: hidden;
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .text {
@@ -299,6 +291,8 @@ overflow: hidden;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.portfolio {width: calc((100% - 48px) / 3);}
 
 .blocks {
   padding: 32px 16px;
@@ -338,7 +332,6 @@ overflow: hidden;
   color: #2e2f42;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: calc((100% - 48px) / 3);
 }
 
 .app-descr {
