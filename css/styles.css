@@ -189,13 +189,13 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .about-list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -231,6 +231,7 @@ overflow: hidden;
   display: flex;
   gap: 24px;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .ourteam {
@@ -257,8 +258,6 @@ overflow: hidden;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
-}
 
 .members {
   font-weight: 500;
@@ -292,8 +291,6 @@ overflow: hidden;
   padding-bottom: 120px;
 }
 
-.portfolio {width: calc((100% - 48px) / 3);}
-
 .blocks {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -323,6 +320,7 @@ overflow: hidden;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 
 .app-name {
