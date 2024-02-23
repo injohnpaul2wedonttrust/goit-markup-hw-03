@@ -189,13 +189,13 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .about-list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
