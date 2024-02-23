@@ -195,6 +195,7 @@ background-color: #404BBF;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -217,7 +218,6 @@ overflow: hidden;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .about-descr {
@@ -238,6 +238,7 @@ overflow: hidden;
   display: flex;
   gap: 24px;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .ourteam {
@@ -264,7 +265,6 @@ overflow: hidden;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .members {
@@ -323,7 +323,6 @@ overflow: hidden;
   line-height: 1.5;
   color: #4d5ae5;
   letter-spacing: 0.04em;
-  background-color: #f4f4fd;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
