@@ -189,13 +189,15 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  width: calc((100% - 72px) / 4);
 }
 
 .about-list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -239,6 +241,8 @@ background-color: #404BBF;
   gap: 24px;
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
+  margin: 0;
+  padding: 0;
 }
 
 .ourteam {
@@ -264,7 +268,8 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 8px;
+  margin: 0;
+  padding: 0;
 }
 
 .members {
@@ -327,6 +332,8 @@ background-color: #404BBF;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio {
